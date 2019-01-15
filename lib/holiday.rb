@@ -68,7 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
       attributes.each do |holiday, supplies|
         # should clean this up later to not look so confusing
         puts "  #{holiday.to_s.split('_').each { |h| h.capitalize! }.join(' ')}: #{supplies.join(', ')}"
-      end 
+      end
     end
 end
 
